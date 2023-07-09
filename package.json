@@ -2,6 +2,7 @@
   "name": "playwright-ct-vue-on-issue",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "lodash-es": "^4.17.21",
+    "lowlight": "^2.9.0",
     "vue": "^3.3.2"
   },
   "devDependencies": {
